@@ -1,0 +1,248 @@
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1445px) {
+/*	body{
+		background: #222;
+	}*/
+	.carousel-img{
+		width: 65%;
+	}
+
+	.container-lg{
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.quick-access{
+		min-height: 360px;
+	}
+	.quick-access .title-small,
+	.our-services .title-small{
+		font-size: 1.3rem;
+	}
+}
+
+
+
+@media only screen
+and (max-width : 1019px) {
+/*	body{
+		background: red;
+	}*/
+	.header{
+		height: 455px;
+	}
+
+	.logos-row{
+		display: none;
+	}
+	.drawer-brand{
+		display: inherit !important;
+	}	
+
+	.nav-footer{
+		margin-left: 25px;
+	}
+	.nav-footer .nav-link, 
+	.rights{
+		font-size: 12px
+	}
+
+	.rights{
+		margin-right: 60px !important;
+		margin-top: 4px;
+	}
+
+}
+
+
+
+
+
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+/*	body{
+		background: green;
+	}
+	*/
+	.drawer-brand .logo, 
+	.drawer-brand::after{
+		display: none;
+	}
+	.drawer-brand{
+		width: 78px;
+	}
+	#options{
+		display: none;
+	}
+	.header{
+		background: url(../images/bg_small.jpg) no-repeat;
+		background-size: 633px 450px;
+		height: 395px !important;
+	}
+	.logo-small{
+		display: initial;
+		margin-left: -30px;
+		margin-top: 8px;
+		opacity: 0.5;
+	}
+	.content-small{
+		display: initial;
+		margin-left: auto;
+		margin-right: auto;
+		min-width: 319px;
+		max-width: 441px;
+	}
+	.content-small .title,
+	.content-small small{
+		font-size: 23px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		margin-left: 10%;
+		margin-top: 140px;
+	}
+	.content-small small{
+		margin-left: 20%;
+	}
+	.btn-apply{
+		background-color: #bd9a02;
+		color: #373a3c;
+		border-radius: 22px;
+		width: 121px;
+		height: 30px;
+		padding-top: 4px;
+		margin-left: auto;
+		display: block;
+		margin-right: 5%;
+	}
+
+	.our-services,
+	.quick-access{
+		background: none;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.our-services{
+		
+	}
+
+	.our-services .content .row,
+	.quick-access .content .row{
+		margin-bottom: 20px;
+	}
+
+	.our-services .title,
+	.quick-access .title{
+		font-size: 28px;
+		text-align: center;
+		margin-left: 0;
+	}
+	.our-services .title::after,
+	.quick-access .title::after{
+		display: none;
+	}
+
+	.our-services .content,
+	.quick-access .content{
+		margin: 0;
+		margin-top: 20px;
+	}
+	.our-services .title-small,
+	.quick-access .title-small{
+		text-align: left;
+		margin-top: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.to-apple img{
+		margin-top: 10px !important;
+		margin-left: 0px;
+		width: 110px;
+	}
+	.to-google img{
+		width: 127px;
+	}
+
+	.logos-row{
+		padding-left: 40px;
+	}
+	.logos-row .logo{
+		margin-left: 10px;
+	}
+	.rights-section .nav-footer{
+		margin-left: 30px;
+	}
+	.rights-section .rights{
+		margin-right: 35px;
+	}
+	.nav-footer .nav-link,
+	.rights-section .rights p{
+		font-size: 12px;
+	}
+
+	.footer .flex-col-small{
+		flex-direction: column;
+	}
+	.footer .get-app{
+		margin-left: auto;
+		margin-bottom: 30px;
+	}
+
+	.footer .logos-row{
+		display: none;
+	}
+	.rights-section{
+		
+	}
+	.rights-section .nav-footer{
+		margin: 0;
+		padding: 0;
+	}
+	.rights-section .nav-footer ul{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.rights-section .nav-footer .nav-link{
+		font-size: 10px;
+		margin-left: -10px;
+	}
+
+	.col-md-3,
+	.col-sm-12,
+	.col-xs-12{
+		padding-left: 0px;
+	}
+
+	.rights-section .rights{
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.modal-content h2.title {
+	  font-size: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+/*Nav Bar Container Width*/
+@media (min-width: 75em)
+.drawer-container {
+  max-width: 80rem;
+}
+
+@media (min-width: 64em)
+.drawer-container {
+	max-width: 70rem;
+}
